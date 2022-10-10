@@ -1,0 +1,16 @@
+{
+  "metis": {
+    "chainId": 588,
+    "Ocean": "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000",
+    "OPFCommunityFeeCollector": "0x6F4475bA3fba289ee2A8531Fec361878A55bD86b",
+    "veOCEAN": "0x5eddaaD6Ec27F386E13F71b5b262937E283dB2B7",
+    "veAllocate": "0x6C3059F7397F786d59edeD6861E31052A431Babc",
+    "veDelegation": "0x8166a975f6e77011396949987E2F58420e9C2968",
+    "veFeeDistributor": "0x9d80266c60d7CF53Dcb1f8DCA5f33a4a9bEa2Aee",
+    "veDelegationProxy": "0x1645B7b9A601e9A857140BF8B8Aae5b6cc74a16E",
+    "veFeeEstimate": "0xc3377e57D3aFC6662BA5d21a148b178D1b6ACDf3",
+    "SmartWalletChecker": "0xe616D3BaB377C9E87666fcAf6CDF413f3135c7bF",
+    "DFRewards": "0x5F38ac35ea4FB973Fd349b9a7078AfF9Bbf4f55b",
+    "DFStrategyV1": "0xd3168e99e21637A8E6d7F2d75D72612fE9714D8C"
+  }
+}

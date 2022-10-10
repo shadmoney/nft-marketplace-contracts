@@ -78,6 +78,12 @@ module.exports = {
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    metis: {
+      url:
+        process.env.NETWORK_RPC_URL !== undefined ? process.env.NETWORK_RPC_URL : "https://stardust.metis.io/?owner=588",
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
     moonbase: {
       url:
         process.env.NETWORK_RPC_URL !== undefined ? process.env.NETWORK_RPC_URL : "",

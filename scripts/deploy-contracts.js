@@ -159,6 +159,19 @@ async function main() {
       shouldDeployDF = true;
       shouldDeployVE = true;
       break;
+    case 588:
+        networkName = "metis";
+        OPFOwner = '0x06100AB868206861a4D7936166A91668c2Ce1312'
+        routerOwner = OPFOwner;
+        OceanTokenAddress = "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000";
+        gasLimit = 15000000
+        gasPrice = ethers.utils.parseUnits('45', 'gwei')
+        sleepAmount = 2
+        shouldDeployOceanToken = false;
+        shouldDeployV4 = false;
+        shouldDeployDF = true;
+        shouldDeployVE = true;
+        break;
     case 0x38:
       networkName = "bsc";
       productionNetwork = true;
