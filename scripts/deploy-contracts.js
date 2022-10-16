@@ -202,6 +202,13 @@ async function main() {
       OPFOwner = "0x06100AB868206861a4D7936166A91668c2Ce1312"
       routerOwner = OPFOwner;
       break;
+    case 421613:
+      networkName = "arbitrum goerli testnet";
+      productionNetwork = false;
+      OceanTokenAddress = "0x99C409E5f62E4bd2AC142f17caFb6810B8F0BAAE";
+      OPFOwner = "0x06100AB868206861a4D7936166A91668c2Ce1312"
+      routerOwner = OPFOwner;
+      break;
     default:
       OPFOwner = owner.address;
       networkName = "development";
