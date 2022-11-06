@@ -66,6 +66,12 @@ module.exports = {
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    optimism: {
+      url:
+        process.env.NETWORK_RPC_URL !== undefined ? process.env.NETWORK_RPC_URL : "https://opt-goerli.g.alchemy.com/v2/0K5PJRnYWUualMonSHdyJ-zZDEjWmc25",
+      accounts:
+        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
     goerli: {
       url:
         process.env.NETWORK_RPC_URL !== undefined ? process.env.NETWORK_RPC_URL : "",
@@ -141,4 +147,4 @@ module.exports = {
     gasPrice: 60,
     coinmarketcap: process.env.COINMARKETCAP_API_KEY,
   }
-};
+}
